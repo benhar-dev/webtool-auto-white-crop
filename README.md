@@ -3,7 +3,7 @@
 A standalone HTML tool for quickly cropping white-background product or device images.  
 It automatically finds the edges of the subject, trims excess white space, and adds a configurable margin. No backend required — everything runs in your browser.
 
-👉 **[Use it live on GitHub Pages](https://benhar-dev.github.io/webtool-auto-white-crop/autocrop.html)**
+👉 **[Use it live on GitHub Pages](https://benhar-dev.github.io/webtool-auto-white-crop/)**
 
 ---
 
@@ -21,7 +21,7 @@ It automatically finds the edges of the subject, trims excess white space, and a
 
 ## Quick Start
 
-1. Open the [live GitHub Pages version](https://benhar-dev.github.io/webtool-auto-white-crop/autocrop.html).
+1. Open the [live GitHub Pages version](https://benhar-dev.github.io/webtool-auto-white-crop/).
 2. Drag an image in, paste it, or enter a URL.
 3. Adjust **Margin px** or **White tolerance** if needed.
 4. Copy the cropped result to clipboard or download it as a PNG.
@@ -31,7 +31,7 @@ It automatically finds the edges of the subject, trims excess white space, and a
 If you prefer, you can run it locally:
 
 1. Clone or download this repo.
-2. Open `autocrop.html` in your browser.
+2. Open `index.html` in your browser.
 3. Use it the same way as the hosted version.
 
 ## Notes
