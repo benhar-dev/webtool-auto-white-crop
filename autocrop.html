@@ -411,34 +411,6 @@
             });
           }
 
-          // bindGlobalPaste() {
-          //   window.addEventListener("paste", async (e) => {
-          //     const target = e.target;
-          //     const isUrlField = target === this.elements.urlInput;
-
-          //     const items = Array.from(e.clipboardData?.items || []);
-          //     const imgItem = items.find((i) => i.type.startsWith("image/"));
-          //     if (imgItem) {
-          //       e.preventDefault(); // avoid inserting junk into focused inputs
-          //       const blob = imgItem.getAsFile();
-          //       if (blob) {
-          //         this.setStatus("Pasted image.", "ok");
-          //         await this.loadFromBlob(blob);
-          //       }
-          //       return;
-          //     }
-
-          //     const text = e.clipboardData?.getData("text");
-          //     if (text && /^https?:\/\//i.test(text)) {
-          //       if (!isUrlField) {
-          //         e.preventDefault(); // we set the value ourselves
-          //         this.elements.urlInput.value = text.trim();
-          //       }
-          //       this.loadFromUrl().catch(() => {});
-          //     }
-          //   });
-          // }
-
           async handleDrop(e) {
             const dt = e.dataTransfer;
             // Prefer file drops
